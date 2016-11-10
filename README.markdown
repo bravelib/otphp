@@ -40,8 +40,8 @@ Note : This project has not been updated since it was created. If you need a PHP
     $hotp->at(1401); // => 316439
 
     // OTP verified with a counter
-    $totp->verify(316439, 1401); // => true
-    $totp->verify(316439, 1402); // => false
+    $hotp->verify(316439, 1401); // => true
+    $hotp->verify(316439, 1402); // => false
 
 ### Google Authenticator Compatible
 
